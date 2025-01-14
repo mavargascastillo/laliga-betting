@@ -25,3 +25,7 @@ for every element in the array of the key "matches"
 
 Next time I will do some more work on this
 
+### Update 13/01/25
+
+I started working on the project again after a short hiatus. I built a data fetcher that works pretty well. It reads the output text files produced out of the API requests and is able to fill a .csv file with the data. However, I have one issue to resolve: the dictionaries that the .txt files contain have a slight issue when it comes to the fullTime key-value pair. The fullTime key-value contains the total numbers of goals by the end of the matches, so the data fetcher is collecting the number of goals scored in each half incorrectly. My first instinct is to correct this by simply substracting the number of goals in halfTime from the number in fullTime. 
+

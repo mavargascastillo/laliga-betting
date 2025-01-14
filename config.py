@@ -15,5 +15,3 @@ headers = { 'X-Auth-Token': FOOTBALL_API_KEY }
 # This is some information on how to interact with the API directly from the terminal:
 # export API_KEY="YOUR_API_KEY" -> this is to set up an environment variable so I do not need to write every single time the auth token in the terminal
 # curl -X GET "https://api.football-data.org/v4/competitions" -H "X-Auth-Token: $API_KEY"
-
-
